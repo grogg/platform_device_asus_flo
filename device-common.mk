@@ -20,7 +20,7 @@
 # Everything in this directory will become public
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
-LOCAL_KERNEL := device/asus/flo-kernel/kernel
+LOCAL_KERNEL := flo-kernel/kernel/arch/arm/boot/zImage
 else
 LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
@@ -46,7 +46,9 @@ PRODUCT_PACKAGES += \
 	lights.msm8960
 
 PRODUCT_PACKAGES += \
-    charger_res_images
+    charger_res_images \
+    busybox \
+    static_busybox
 
 # Live Wallpapers
 PRODUCT_PACKAGES += \
