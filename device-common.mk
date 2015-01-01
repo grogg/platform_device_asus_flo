@@ -48,7 +48,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     charger_res_images \
     busybox \
-    static_busybox
+    static_busybox \
+    ScreenRecorder
 
 # Live Wallpapers
 PRODUCT_PACKAGES += \
