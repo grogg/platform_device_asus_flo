@@ -51,7 +51,7 @@ PRODUCT_PACKAGES += \
     static_busybox \
     ScreenRecorder \
     Browser \
-    Gallery
+    Gallery2
 
 # Live Wallpapers
 PRODUCT_PACKAGES += \
