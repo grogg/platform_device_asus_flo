@@ -49,7 +49,6 @@ PRODUCT_PACKAGES += \
     charger_res_images \
     busybox \
     static_busybox \
-    ScreenRecorder \
     Browser \
     Gallery2
 
