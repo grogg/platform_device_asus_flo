@@ -51,7 +51,9 @@ PRODUCT_PACKAGES += \
     static_busybox \
     Browser \
     Gallery2 \
-    CMFileManager
+    CMFileManager \
+    ScreenRecorder \
+    libscreenrecorder
 
 # Live Wallpapers
 PRODUCT_PACKAGES += \
