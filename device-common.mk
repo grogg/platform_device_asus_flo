@@ -54,7 +54,7 @@ PRODUCT_PACKAGES += \
     CMFileManager \
     ScreenRecorder \
     libscreenrecorder \
-    adaway
+    AdAway
 
 # Live Wallpapers
 PRODUCT_PACKAGES += \
