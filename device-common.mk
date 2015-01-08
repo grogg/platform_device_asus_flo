@@ -47,14 +47,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     charger_res_images \
-    busybox \
-    static_busybox \
-    Browser \
-    Gallery2 \
-    CMFileManager \
-    ScreenRecorder \
-    libscreenrecorder \
-    AdAway
 
 # Live Wallpapers
 PRODUCT_PACKAGES += \
